@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb07c0ac-3aef-407c-989a-3050fb790d95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="fb07c0ac-3aef-407c-989a-3050fb790d95" name="Changes" comment="Все сделано, кроме вывода">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Discountable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Discountable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Meat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/constants/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/constants/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/constants/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/constants/Discount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/service/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/service/ShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +52,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="v2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,7 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -80,6 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671541980089</updated>
     </task>
+    <task id="LOCAL-00001" summary="Все сделано, кроме вывода">
+      <created>1671606998836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671606998836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,24 +95,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Все сделано, кроме вывода" />
+    <option name="LAST_COMMIT_MESSAGE" value="Все сделано, кроме вывода" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/main.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/main.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/model/service/ShoppingCart.java</url>
           <line>25</line>
