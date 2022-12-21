@@ -21,9 +21,8 @@ public class ShoppingCart {
     public double valueDiscount(){
         int value=0;
         for (Food eda : this.eda){
-            if (eda.getColor().equals(Colour.red)){
-            value+=eda.getAmount()*(eda.getPrice()* Discount.redDiscount /100);
-        }else value+=eda.getAmount()*eda.getPrice();
+                value+=eda.getAmount()*(eda.getPrice()-eda.getDiscount());
+
         }
      return value;
     }
@@ -32,7 +31,7 @@ public class ShoppingCart {
         for (Food eda : this.eda){
             if (eda.isVegetarian()){
                 value+=eda.getPrice()*eda.getAmount();
-            }else continue;
+            }
         }
         return value;
     }

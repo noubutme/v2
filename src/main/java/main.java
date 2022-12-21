@@ -8,8 +8,8 @@ public class main {
     public static void main(String[] args) {
         Food[] foods = {
                 new Meat(5,100),
-                new Apple(10,50, Colour.red),
-                new Apple(8,60,Colour.green)
+                new Apple(10,50, "red"),
+                new Apple(8,60,"green")
         };
 
         ShoppingCart cart = new ShoppingCart(foods);
