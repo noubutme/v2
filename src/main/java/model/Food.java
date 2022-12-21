@@ -4,18 +4,15 @@ public abstract class Food implements Discountable{
     protected int amount;
     protected double price;
     protected boolean isVegetarian;
-    protected int discount;
-    protected String color;
+    protected double discount;
 
-    public  Food(int amount,double price,boolean isVegetarian, int discount, String color){
+    public  Food(int amount,double price,boolean isVegetarian){
         this.amount=amount;
         this.price=price;
         this.isVegetarian = isVegetarian;
-        this.discount = discount;
-        this.color=color;
     }
     @Override
-    public int getDiscount(){
+    public double getDiscount(){
         return discount;
     }
     public int getAmount(){
@@ -26,9 +23,6 @@ public abstract class Food implements Discountable{
     }
     public boolean isVegetarian(){
         return isVegetarian;
-    }
-    public String  getColor(){
-        return color;
     }
     }
 
